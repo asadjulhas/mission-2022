@@ -1,0 +1,253 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.body_area {
+  width: 1128px;
+  margin: 0;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 55px;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.header_section {
+  display: flex;
+}
+.header_left, .header_right {
+  width: 50%;
+}
+.header_left h1 {
+	color: #333333;
+	font-size: 60px;
+	font-family: 'Yeseva One', cursive;
+	font-weight: 400;
+  line-height: 80px;
+  margin-bottom: 0;
+}
+.header_left h1::after {
+	background: #FF5959 none repeat scroll 0 0;
+	content: "";
+	height: 124px;
+	left: 139px;
+	position: absolute;
+	top: 149px;
+	width: 4px;
+}
+.header_left h1 span {
+  color: #FFAD5A;
+}
+.header_left p {
+	color: #3E3E3E;
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 15px;
+  margin-bottom: 19px;
+}
+.header_left a {
+	background: #ff5959;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 37px;
+	border-radius: 5px;
+	margin-bottom: 17px;
+	display: inline-block;
+}
+.header_right {
+  text-align: right;
+}
+.header_right img {
+ width: 426px;
+}
+
+
+
+.title_section h2 {
+	color: #13103A;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 47px;
+}
+.title_section h2 span {
+  color: #FFAD5A;
+}
+
+
+.mission_area {
+  display: flex;
+}
+.single_mission.missino {
+  background: #edf5f6;
+}
+.single_mission.vission {
+  background: #ffeeee;
+}
+.single_mission.goals {
+  background: #fff4d6;
+}
+.single_mission {
+	width: 360px;
+	margin-right: 24px;
+	border-radius: 8px;
+	padding: 40px 32px;
+}
+.single_mission img {
+  width: 96px;
+}
+.single_mission h3 {
+	color: #000000;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+.single_mission p {
+	color: #424242;
+	font-size: 16px;
+}
+
+
+.develop_area, .community_area {
+	display: flex;
+	margin-top: 86px;
+  position: relative;
+}
+.develop_area::before {
+	background-image: url("../images/shape-1.png");
+	content: "";
+	height: 432px;
+	position: absolute;
+	right: 160px;
+	top: 52px;
+	width: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+}
+.develop_left img {
+  width: 400px;
+}
+.develop_left {
+  width: 400px;
+}
+.develop_right {
+  width: 656px;
+  margin-left: 72px;
+}
+
+.develop_right h4, .community_left h4 {
+  color: #333333;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.develop_right p, .community_left p {
+  color: #3E3E3E;
+  font-size: 18px;
+}
+.develop_right a, .community_left a, .purchase_text a {
+	background: #ff5959;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 21px;
+	border-radius: 5px;
+	margin-bottom: 17px;
+	display: inline-block;
+}
+
+
+.purchase {
+  background-image: url(../images/work1.jpg);
+  background-attachment: fixed;
+  padding-bottom: 55px;
+  margin-top: 100px;
+  margin-bottom: 115px;
+  text-align: center;
+}
+.purchase_area {
+padding-top: 36px;
+}
+.purchase_oppisiti {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 25px;
+ height: 225px;
+ padding-top: 1px;
+}
+.purchase_oppisiti:after {
+  background: #0b0d17 none repeat scroll 0 0;
+  content: "";
+  height: 125%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+.purchase_text h3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.purchase_text p {
+color: #fff;
+font-size: 14px;
+line-height: 30px;
+padding-bottom: 15px;
+}
+
+
+.community_area::before {
+	background-image: url("../images/shape-2.png");
+	content: "";
+	height: 200px;
+	position: absolute;
+	top: 270px;
+	width: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+	left: 90px;
+	background-position: right;
+}
+.community_right {
+  width: 400px;
+}
+.community_left {
+  width: 656px;
+  margin-right: 72px;
+}
+
+
+
+.footer_area {
+  background: #0b0d17;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 150px;
+}
+.footer_area h5 {
+	color: #fff;
+	font-size: 36px;
+	line-height: 44px;
+	font-family: 'Lobster', cursive;
+	margin: 0;
+  margin: 29px 0;
+}
+.footer_area h5 span {
+  color: #FF5959;
+}
+.footer_area p {
+  color: #D9DBE1;
+  font-size: 14px;
+}
